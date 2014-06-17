@@ -1,8 +1,9 @@
 package com.sdobek.storitime;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class LoginActivity extends Activity {
 
@@ -17,6 +18,18 @@ public class LoginActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.login, menu);
 		return true;
+	}
+	
+	public void onLogin(View v){
+		
+	}
+	
+	public void onSendPassword(View v){
+		
+	}
+	
+	public void onGotoSignUp(View v){
+		
 	}
 
 }

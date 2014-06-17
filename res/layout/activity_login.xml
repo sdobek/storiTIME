@@ -38,7 +38,7 @@
         android:layout_alignLeft="@+id/et_usernameLogin"
         android:layout_alignRight="@+id/et_usernameLogin"
         android:layout_below="@+id/et_usernameLogin"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword" />
@@ -51,6 +51,7 @@
         android:layout_alignRight="@+id/editText2"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="34dp"
+        android:onClick="onLogin"
         android:text="@string/signin" />
 
     <TextView
@@ -60,6 +61,7 @@
         android:layout_alignRight="@+id/btn_signinLogin"
         android:layout_below="@+id/btn_signinLogin"
         android:layout_marginTop="22dp"
+        android:onClick="onSendPassword"
         android:text="@string/forgotPassword"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -70,6 +72,7 @@
         android:layout_alignBaseline="@+id/tv_forgotPassword"
         android:layout_alignBottom="@+id/tv_forgotPassword"
         android:layout_alignLeft="@+id/btn_signinLogin"
+        android:onClick="onGotoSignUp"
         android:text="@string/clicktosignup"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
